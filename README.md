@@ -74,4 +74,8 @@ Before you begin, ensure you have the following installed:
    	user_id INT REFERENCES users(id),
    	UNIQUE (country_code, user_id)
    );
+4. **Run the app**:
+   ```bash
+   node index.js
 
+The app will be available at http://localhost:3000.
