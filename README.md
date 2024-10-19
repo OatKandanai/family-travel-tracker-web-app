@@ -67,6 +67,9 @@ Before you begin, ensure you have the following installed:
    	country_code CHAR(2) UNIQUE,
    	country_name TEXT
    );
+  ## Importing Countries Data
+  You need to import the list of countries into the `countries` table from a CSV file inside folder (`database/countries.csv`).
+
    
    CREATE TABLE visited_countries (
    	id SERIAL PRIMARY KEY,
