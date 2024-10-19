@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed:
    PORT=3000
    PG_USER="your_postgres_username"
    PG_HOST="localhost"
-   PG_DATABASE="FamilyTravelTracker"
+   PG_DATABASE="familytraveltracker"
    PG_PASSWORD="your_postgres_password"
    PG_PORT=5432
 3. **Set up the database**:
